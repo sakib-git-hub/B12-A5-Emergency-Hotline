@@ -407,7 +407,7 @@ document.getElementById("call-nine").addEventListener("click", function() {
   alert("📞 Calling Bangladesh Railway Helpline 163...")
     let asideCardParent = document.getElementById("aside-items")
  let RailwayDiv = document.createElement("div")
- RailwayDiv.innerHTML = `<div class="flex items-center w-74 justify-center my-3 p-3 gap-3 bg-[#FAFAFA] rounded-md">
+ RailwayDiv.innerHTML = `<div class="flex items-center w-78 justify-center my-3 p-4 whitespace-nowrap gap-3 bg-[#FAFAFA] rounded-md">
  <div>
   <h3 class="text-[18px] font-semibold">Bangladesh Railway Helpline </h3>
   <p>163</p>  
