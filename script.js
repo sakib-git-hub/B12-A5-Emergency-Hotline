@@ -347,7 +347,7 @@ document.getElementById("call-seven").addEventListener("click", function() {
   alert("📞 Calling Electricity Helpline 16216...")
   let asideCardParent = document.getElementById("aside-items")
  let div = document.createElement("div")
- div.innerHTML = `<div class="flex items-center w-74 justify-center space-x-[110px] my-3 p-3 gap-3 bg-[#FAFAFA] rounded-md">
+ div.innerHTML = `<div class="flex items-center w-78 justify-center my-3 p-4 whitespace-nowrap gap-3 bg-[#FAFAFA] rounded-md">
  <div>
   <h3 class="text-[18px] font-semibold">Electricity Helpline</h3>
   <p>16216</p>  
@@ -377,7 +377,7 @@ document.getElementById("call-eight").addEventListener("click", function() {
   alert("📞 Calling Brac Helpline 16445...")
   let asideCardParent = document.getElementById("aside-items")
  let div = document.createElement("div")
- div.innerHTML = `<div class="flex items-center w-74 justify-center my-3 p-3 gap-18 bg-[#FAFAFA] rounded-md">
+ div.innerHTML = `<div class="flex items-center w-78 justify-center my-3 p-4 whitespace-nowrap gap-3 bg-[#FAFAFA] rounded-md">
  <div>
   <h3 class="text-[18px] font-semibold">Brac Helpline</h3>
   <p>16445</p>  
