@@ -165,9 +165,7 @@ document.getElementById("call-one").addEventListener("click", function() {
   alert("📞 Calling National Emergency Service 999...")
    let asideCardParent = document.getElementById("aside-items")
  let div = document.createElement("div")
- div.innerHTML=`<div class="w-full max-w-[550px] mx-auto flex items-center justify-between my-3 p-4 gap-3 bg-[#FAFAFA] rounded-md">
-
-  <!-- Left section -->
+ div.innerHTML=`<div class="w-[300px] mx-auto flex items-center justify-between my-3 p-3 gap-3 bg-[#FAFAFA] rounded-md">
   <div class="flex flex-col gap-1 whitespace-nowrap">
     <h3 class="text-[16px] font-semibold text-gray-800">
       National Emergency Number
@@ -176,8 +174,6 @@ document.getElementById("call-one").addEventListener("click", function() {
       999
     </p>
   </div>
-
-  <!-- Right section (time) -->
   <div class="text-gray-500 text-[12px]">
     ${new Date().toLocaleTimeString()}
   </div>
@@ -204,9 +200,7 @@ document.getElementById("call-two").addEventListener("click", function() {
   alert("📞 Calling Police Helpline Number 999...")
     let asideCardParent = document.getElementById("aside-items")
  let div = document.createElement("div")
- div.innerHTML = `<div class="w-full max-w-[550px] mx-auto flex items-center justify-between my-3 p-4 gap-3 bg-[#FAFAFA] rounded-md">
-
-  <!-- Left section -->
+ div.innerHTML = `<div class="w-[300px] mx-auto flex items-center justify-between my-3 p-3 gap-3 bg-[#FAFAFA] rounded-md">
   <div class="flex flex-col gap-1 whitespace-nowrap">
     <h3 class="text-[16px] font-semibold text-gray-800">
       Police Helpline Number
@@ -215,8 +209,6 @@ document.getElementById("call-two").addEventListener("click", function() {
       999
     </p>
   </div>
-
-  <!-- Right section (time) -->
   <div class="text-gray-500 text-[12px]">
     ${new Date().toLocaleTimeString()}
   </div>
@@ -243,9 +235,7 @@ document.getElementById("call-three").addEventListener("click", function() {
   alert("📞 Calling Fire Service Number 999...")
    let asideCardParent = document.getElementById("aside-items")
  let div = document.createElement("div")
- div.innerHTML = `<div class="w-full max-w-[550px] mx-auto flex items-center justify-between my-3 p-4 gap-3 bg-[#FAFAFA] rounded-md">
-
-  <!-- Left section -->
+ div.innerHTML = `<div class="w-[300px] mx-auto flex items-center justify-between my-3 p-3 gap-3 bg-[#FAFAFA] rounded-md">
   <div class="flex flex-col gap-1 whitespace-nowrap">
     <h3 class="text-[16px] font-semibold text-gray-800">
       Fire Service Number
@@ -254,8 +244,6 @@ document.getElementById("call-three").addEventListener("click", function() {
       999
     </p>
   </div>
-
-  <!-- Right section (time) -->
   <div class="text-gray-500 text-[12px]">
     ${new Date().toLocaleTimeString()}
   </div>
@@ -281,9 +269,7 @@ document.getElementById("call-four").addEventListener("click", function() {
   alert("📞 Calling Ambulance Service 1994-999999...")
   let asideCardParent = document.getElementById("aside-items")
  let div = document.createElement("div")
- div.innerHTML = `<div class="w-full max-w-[550px] mx-auto flex items-center justify-between my-3 p-4 gap-3 bg-[#FAFAFA] rounded-md">
-
-  <!-- Left section -->
+ div.innerHTML = `<div class="w-[300px] mx-auto flex items-center justify-between my-3 p-3 gap-3 bg-[#FAFAFA] rounded-md">
   <div class="flex flex-col gap-1 whitespace-nowrap">
     <h3 class="text-[16px] font-semibold text-gray-800">
      Ambulance Service
@@ -292,8 +278,6 @@ document.getElementById("call-four").addEventListener("click", function() {
      1994-999999
     </p>
   </div>
-
-  <!-- Right section (time) -->
   <div class="text-gray-500 text-[12px]">
     ${new Date().toLocaleTimeString()}
   </div>
@@ -319,9 +303,7 @@ document.getElementById("call-five").addEventListener("click", function() {
   alert("📞 Calling Women & Child Helpline 109...")
    let asideCardParent = document.getElementById("aside-items")
  let div = document.createElement("div")
- div.innerHTML = `<div class="w-full max-w-[550px] mx-auto flex items-center justify-between my-3 p-4 gap-3 bg-[#FAFAFA] rounded-md">
-
-  <!-- Left section -->
+ div.innerHTML = `<div class="w-[300px] mx-auto flex items-center justify-between my-3 p-3 gap-3 bg-[#FAFAFA] rounded-md">
   <div class="flex flex-col gap-1 whitespace-nowrap">
     <h3 class="text-[16px] font-semibold text-gray-800">
       Women & Child Helpline
@@ -330,8 +312,6 @@ document.getElementById("call-five").addEventListener("click", function() {
       109
     </p>
   </div>
-
-  <!-- Right section (time) -->
   <div class="text-gray-500 text-[12px]">
     ${new Date().toLocaleTimeString()}
   </div>
@@ -357,9 +337,7 @@ document.getElementById("call-six").addEventListener("click", function() {
   alert("📞 Calling Anti-Corruption Helpline 106...")
    let asideCardParent = document.getElementById("aside-items")
  let div = document.createElement("div")
- div.innerHTML = `<div class="w-full max-w-[550px] mx-auto flex items-center justify-between my-3 p-4 gap-3 bg-[#FAFAFA] rounded-md">
-
-  <!-- Left section -->
+ div.innerHTML = `<div class="w-[300px] mx-auto flex items-center justify-between my-3 p-3 gap-3 bg-[#fafafa] rounded-md">
   <div class="flex flex-col gap-1 whitespace-nowrap">
     <h3 class="text-[16px] font-semibold text-gray-800">
      Anti-Corruption Helpline
@@ -368,8 +346,6 @@ document.getElementById("call-six").addEventListener("click", function() {
       106
     </p>
   </div>
-
-  <!-- Right section (time) -->
   <div class="text-gray-500 text-[12px]">
     ${new Date().toLocaleTimeString()}
   </div>
@@ -395,9 +371,7 @@ document.getElementById("call-seven").addEventListener("click", function() {
   alert("📞 Calling Electricity Helpline 16216...")
   let asideCardParent = document.getElementById("aside-items")
  let div = document.createElement("div")
- div.innerHTML = `<div class="w-full max-w-[550px] mx-auto flex items-center justify-between my-3 p-3 gap-18 bg-[#FAFAFA] rounded-md">
-
-  <!-- Left section -->
+ div.innerHTML = `<div class="w-[300px] mx-auto flex items-center justify-between gap-3 my-3 p-3 bg-[#fafafa] rounded-md">
   <div class="flex flex-col gap-1 whitespace-nowrap">
     <h3 class="text-[16px] font-semibold text-gray-800">
       Electricity Helpline
@@ -406,8 +380,6 @@ document.getElementById("call-seven").addEventListener("click", function() {
     16216
     </p>
   </div>
-
-  <!-- Right section (time) -->
   <div class="text-gray-500 text-[12px]">
     ${new Date().toLocaleTimeString()}
   </div>
@@ -433,20 +405,16 @@ document.getElementById("call-eight").addEventListener("click", function() {
   alert("📞 Calling Brac Helpline 16445...")
   let asideCardParent = document.getElementById("aside-items")
  let div = document.createElement("div")
- div.innerHTML = `<div class="w-full max-w-[500px] mx-auto flex items-center justify-between my-3 p-4 gap-28 bg-[#FAFAFA] rounded-md">
-
-  <!-- Left section -->
+ div.innerHTML = `<div class="w-[300px] mx-auto flex items-center justify-between gap-3 my-3 p-3 bg-[#fafafa] rounded-md">
   <div class="flex flex-col gap-1 whitespace-nowrap flex-1">
-    <h3 class="text-[15px] font-semibold text-gray-800 truncate">
+    <h3 class="text-[16px] font-semibold text-gray-800 truncate">
       Brac Helpline
     </h3>
-    <p class="text-[13px] text-gray-600 text-left">
+    <p class="text-[14px] text-gray-600 text-left">
       16445
     </p>
   </div>
-
-  <!-- Right section (time) -->
-  <div class="text-gray-500 text-[11px] ml-3 flex-shrink-0">
+ <div class="text-gray-500 text-[12px]">
     ${new Date().toLocaleTimeString()}
   </div>
 
@@ -471,9 +439,7 @@ document.getElementById("call-nine").addEventListener("click", function() {
   alert("📞 Calling Bangladesh Railway Helpline 163...")
     let asideCardParent = document.getElementById("aside-items")
  let RailwayDiv = document.createElement("div")
- RailwayDiv.innerHTML = `<div class="w-full max-w-[550px] mx-auto flex items-center justify-between my-3 p-4 gap-3 bg-[#FAFAFA] rounded-md">
-
-  <!-- Left section -->
+ RailwayDiv.innerHTML = `<div class="w-[300px] mx-auto flex items-center justify-between my-3 p-3 gap-3 bg-[#fafafa] rounded-md">
   <div class="flex flex-col gap-1 whitespace-nowrap">
     <h3 class="text-[16px] font-semibold text-gray-800">
       Bangladesh Railway Helpline
@@ -482,8 +448,6 @@ document.getElementById("call-nine").addEventListener("click", function() {
       163
     </p>
   </div>
-
-  <!-- Right section (time) -->
   <div class="text-gray-500 text-[12px]">
     ${new Date().toLocaleTimeString()}
   </div>
